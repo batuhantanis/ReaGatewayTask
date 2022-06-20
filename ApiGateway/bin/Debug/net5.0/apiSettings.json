@@ -1,0 +1,86 @@
+﻿{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5003"
+  },
+  "Routes": [{
+    "UpstreamPathTemplate": "/customer/getcustomer/{id}",
+    "UpstreamHttpMethod": ["Get"],
+    "DownstreamPathTemplate": "/api/customer/getcustomer/{id}",
+    "DownstreamScheme": "https",
+    "DownstreamHostAndPorts": [{
+      "Host": "localhost",
+      "Port": 5002
+    }]
+  },
+    {
+      "UpstreamPathTemplate": "/customer/getcustomerlist",
+      "UpstreamHttpMethod": ["Get"],
+      "DownstreamPathTemplate": "/api/customer/getcustomerlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/createcustomer",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/customer/createcustomer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/createcustomerlist",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/customer/createcustomerlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/updatecustomer",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/customer/updatecustomer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/updatecustomerlist",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/customer/updatecustomerlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/deletecustomer/{id}",
+      "UpstreamHttpMethod": ["Delete"],
+      "DownstreamPathTemplate": "/api/customer/deletecustomer/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/customer/deletecustomerlist",
+      "UpstreamHttpMethod": ["Delete"],
+      "DownstreamPathTemplate": "/api/customer/deletecustomerlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }]
+    }
+  ]
+}

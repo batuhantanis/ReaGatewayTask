@@ -1,0 +1,10 @@
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\bin\Debug\netcoreapp3.1\Order.Domain.deps.json
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\bin\Debug\netcoreapp3.1\Order.Domain.dll
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\bin\Debug\netcoreapp3.1\Order.Domain.pdb
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.csproj.AssemblyReference.cache
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.AssemblyInfoInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.AssemblyInfo.cs
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.dll
+C:\Users\batut\RiderProjects\ReaTask\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.pdb

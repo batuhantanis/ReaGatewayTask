@@ -1,0 +1,13 @@
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\bin\Debug\netcoreapp3.1\Customer.Domain.deps.json
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\bin\Debug\netcoreapp3.1\Customer.Domain.dll
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\bin\Debug\netcoreapp3.1\Customer.Domain.pdb
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.csproj.AssemblyReference.cache
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.AssemblyInfoInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.AssemblyInfo.cs
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.dll
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.pdb
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\obj\Debug\netcoreapp3.1\Customer.Domain.csproj.CopyComplete
