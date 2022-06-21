@@ -3,7 +3,7 @@
     "BaseUrl": "https://localhost:5003"
   },
   "Routes": [{
-    "UpstreamPathTemplate": "/customer/getcustomer/{id}",
+    "UpstreamPathTemplate": "/getcustomer/{id}",
     "UpstreamHttpMethod": ["Get"],
     "DownstreamPathTemplate": "/api/customer/getcustomer/{id}",
     "DownstreamScheme": "https",
@@ -13,7 +13,7 @@
     }]
   },
     {
-      "UpstreamPathTemplate": "/customer/getcustomerlist",
+      "UpstreamPathTemplate": "/getcustomerlist",
       "UpstreamHttpMethod": ["Get"],
       "DownstreamPathTemplate": "/api/customer/getcustomerlist",
       "DownstreamScheme": "https",
@@ -23,7 +23,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/customer/createcustomer",
+      "UpstreamPathTemplate": "/createcustomer",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/customer/createcustomer",
       "DownstreamScheme": "https",
@@ -33,7 +33,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/customer/createcustomerlist",
+      "UpstreamPathTemplate": "/createcustomerlist",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/customer/createcustomerlist",
       "DownstreamScheme": "https",
@@ -43,7 +43,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/customer/updatecustomer",
+      "UpstreamPathTemplate": "/updatecustomer",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/customer/updatecustomer",
       "DownstreamScheme": "https",
@@ -53,7 +53,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/customer/updatecustomerlist",
+      "UpstreamPathTemplate": "/updatecustomerlist",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/customer/updatecustomerlist",
       "DownstreamScheme": "https",
@@ -63,7 +63,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/customer/deletecustomer/{id}",
+      "UpstreamPathTemplate": "/deletecustomer/{id}",
       "UpstreamHttpMethod": ["Delete"],
       "DownstreamPathTemplate": "/api/customer/deletecustomer/{id}",
       "DownstreamScheme": "https",
@@ -73,7 +73,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/customer/deletecustomerlist",
+      "UpstreamPathTemplate": "/deletecustomerlist",
       "UpstreamHttpMethod": ["Delete"],
       "DownstreamPathTemplate": "/api/customer/deletecustomerlist",
       "DownstreamScheme": "https",
@@ -83,7 +83,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/getorderlist",
+      "UpstreamPathTemplate": "/getorderlist",
       "UpstreamHttpMethod": ["Get"],
       "DownstreamPathTemplate": "/api/order/getorderlist",
       "DownstreamScheme": "https",
@@ -93,7 +93,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/getorder/{id}",
+      "UpstreamPathTemplate": "/getorder/{id}",
       "UpstreamHttpMethod": ["Get"],
       "DownstreamPathTemplate": "/api/order/getorder/{id}",
       "DownstreamScheme": "https",
@@ -103,7 +103,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/createorder",
+      "UpstreamPathTemplate": "/createorder",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/order/createorder",
       "DownstreamScheme": "https",
@@ -113,7 +113,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/createorderlist",
+      "UpstreamPathTemplate": "/createorderlist",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/order/createorderlist",
       "DownstreamScheme": "https",
@@ -123,7 +123,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/updateorder",
+      "UpstreamPathTemplate": "/updateorder",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/order/updateorder",
       "DownstreamScheme": "https",
@@ -133,7 +133,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/updateorderlist",
+      "UpstreamPathTemplate": "/updateorderlist",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/order/updateorderlist",
       "DownstreamScheme": "https",
@@ -143,7 +143,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/deleteorder/{id}",
+      "UpstreamPathTemplate": "/deleteorder/{id}",
       "UpstreamHttpMethod": ["Delete"],
       "DownstreamPathTemplate": "/api/order/deleteorder/{id}",
       "DownstreamScheme": "https",
@@ -153,7 +153,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/deleteorderlist",
+      "UpstreamPathTemplate": "/deleteorderlist",
       "UpstreamHttpMethod": ["Delete"],
       "DownstreamPathTemplate": "/api/order/deleteorderlist",
       "DownstreamScheme": "https",
@@ -163,7 +163,7 @@
       }]
     },
     {
-      "UpstreamPathTemplate": "/order/changestatus/{id}/{status}",
+      "UpstreamPathTemplate": "/changestatus/{id}/{status}",
       "UpstreamHttpMethod": ["Post"],
       "DownstreamPathTemplate": "/api/order/changestatus/{id}/{status}",
       "DownstreamScheme": "https",

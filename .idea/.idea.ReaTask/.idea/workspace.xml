@@ -30,7 +30,6 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b6d9aef891d740fada4474a66a67cc9d76348d742c9818aa2f7592a2e55aa7/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4035669f1d6dc51eae2799b349921a7ad1ea07d5e1a7fd22d72af584f9f19e/StartupLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/ccc/productAPI/Controllers/ProductController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Order.TestApi/Controllers/OrderTestController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -204,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655728426278</updated>
       <workItem from="1655728428473" duration="61000" />
-      <workItem from="1655728506927" duration="37643000" />
+      <workItem from="1655728506927" duration="42207000" />
     </task>
     <servers />
   </component>
@@ -322,19 +321,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Customer.Domain/Services/Concrete/CustomerService.cs</url>
-          <line>27</line>
-          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\Services\Concrete\CustomerService.cs" initialLine="27" containingFunctionPresentation="method 'GetCustomer'">
-            <startOffsets>
-              <option value="797" />
-            </startOffsets>
-            <endOffsets>
-              <option value="798" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Customer.Domain/Services/Concrete/CustomerService.cs</url>
