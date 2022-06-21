@@ -7,6 +7,8 @@
     <projectFile profileName="Customer.API">Customer.API/Customer.API.csproj</projectFile>
     <projectFile profileName="IIS Express">Order.API/Order.API.csproj</projectFile>
     <projectFile profileName="Order.API">Order.API/Order.API.csproj</projectFile>
+    <projectFile profileName="IIS Express">Order.TestApi/Order.TestApi.csproj</projectFile>
+    <projectFile profileName="Order.TestApi">Order.TestApi/Order.TestApi.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b575958-b7a5-449b-be44-00f0ee49115a" name="Changes" comment="" />
@@ -28,6 +30,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b6d9aef891d740fada4474a66a67cc9d76348d742c9818aa2f7592a2e55aa7/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4035669f1d6dc51eae2799b349921a7ad1ea07d5e1a7fd22d72af584f9f19e/StartupLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/ccc/productAPI/Controllers/ProductController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Order.TestApi/Controllers/OrderTestController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -149,7 +152,39 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Order.TestApi" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Order.TestApi/Order.TestApi.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="Order.TestApi" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Order.TestApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Order.TestApi/Order.TestApi.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue=".NET Launch Settings Profile.Order.TestApi" />
+      <item itemvalue=".NET Launch Settings Profile.Order.TestApi: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.ApiGateway" />
       <item itemvalue=".NET Launch Settings Profile.ApiGateway: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.Customer.API" />
@@ -169,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655728426278</updated>
       <workItem from="1655728428473" duration="61000" />
-      <workItem from="1655728506927" duration="28327000" />
+      <workItem from="1655728506927" duration="37643000" />
     </task>
     <servers />
   </component>
@@ -315,19 +350,6 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Data/Repository/Concrete/GenericRepositroy.cs</url>
-          <line>79</line>
-          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Data\Repository\Concrete\GenericRepositroy.cs" initialLine="79" containingFunctionPresentation="method 'DeleteRange'">
-            <startOffsets>
-              <option value="2250" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2282" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
           <line>21</line>
           <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="21" containingFunctionPresentation="method 'GetCustomerList'">
@@ -443,6 +465,71 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.Test/OrderTest.cs</url>
+          <line>35</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.Test\OrderTest.cs" initialLine="33" containingFunctionPresentation="method 'CreateOrder'">
+            <startOffsets>
+              <option value="808" />
+            </startOffsets>
+            <endOffsets>
+              <option value="854" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.Test/OrderTest.cs</url>
+          <line>27</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.Test\OrderTest.cs" initialLine="25" containingFunctionPresentation="method 'GetOrder'">
+            <startOffsets>
+              <option value="626" />
+            </startOffsets>
+            <endOffsets>
+              <option value="670" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.Test/OrderTest.cs</url>
+          <line>42</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.Test\OrderTest.cs" initialLine="42" containingFunctionPresentation="method 'UpdateOrder'">
+            <startOffsets>
+              <option value="975" />
+            </startOffsets>
+            <endOffsets>
+              <option value="976" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.Test/OrderTest.cs</url>
+          <line>18</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.Test\OrderTest.cs" initialLine="18" containingFunctionPresentation="method 'GetOrderList'">
+            <startOffsets>
+              <option value="432" />
+            </startOffsets>
+            <endOffsets>
+              <option value="433" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.Test/OrderTest.cs</url>
+          <line>61</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.Test\OrderTest.cs" initialLine="61" containingFunctionPresentation="method 'DeleteOrder'">
+            <startOffsets>
+              <option value="1503" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1504" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

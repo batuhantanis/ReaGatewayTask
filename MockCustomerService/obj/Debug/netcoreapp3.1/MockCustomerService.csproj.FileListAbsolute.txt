@@ -1,0 +1,13 @@
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\bin\Debug\netcoreapp3.1\MockCustomerService.deps.json
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\bin\Debug\netcoreapp3.1\MockCustomerService.dll
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\bin\Debug\netcoreapp3.1\MockCustomerService.pdb
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.csproj.AssemblyReference.cache
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.AssemblyInfoInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.AssemblyInfo.cs
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.csproj.CoreCompileInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.csproj.CopyComplete
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.dll
+C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\obj\Debug\netcoreapp3.1\MockCustomerService.pdb

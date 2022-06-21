@@ -1,0 +1,13 @@
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\bin\Debug\netcoreapp3.1\MockOrderService.deps.json
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\bin\Debug\netcoreapp3.1\MockOrderService.dll
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\bin\Debug\netcoreapp3.1\MockOrderService.pdb
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.csproj.AssemblyReference.cache
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.AssemblyInfoInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.AssemblyInfo.cs
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.csproj.CoreCompileInputs.cache
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.csproj.CopyComplete
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.dll
+C:\Users\batut\RiderProjects\ReaTask\MockOrderService\obj\Debug\netcoreapp3.1\MockOrderService.pdb

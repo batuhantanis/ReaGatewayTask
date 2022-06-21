@@ -18,13 +18,13 @@ namespace Order.Domain.Services.Concrete
         }
         public async Task<List<OrderEntity>> GetOrdersList()
         {
-            var orders = await _unitOfWork.Order.GetAll(null,null,new List<string>(){"Customer","Address","Products"});
+            var orders = await _unitOfWork.Order.GetAll(null,null,new List<string>(){"Customer.Address","Address","Products"});
             return orders.ToList();
         }
 
         public async Task<OrderEntity> GetOrder(int id)
         {
-            var order = await _unitOfWork.Order.Get(x => x.Id == id,new List<string>(){"Customer","Address","Products"});
+            var order = await _unitOfWork.Order.Get(x => x.Id == id,new List<string>(){"Customer.Address","Address","Products"});
             return order;
         }
 
