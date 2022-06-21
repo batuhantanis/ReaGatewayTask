@@ -7,6 +7,27 @@
     &lt;TestId&gt;xUnit::90CB04A3-E3CD-482C-AB91-8435EA2B5D3C::.NETCoreApp,Version=v3.1::Order.Test.OrderTest.CreateOrder&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af6933cf_002D5d27_002D48ec_002Da8ba_002Dcb74a8e050b9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.GetCustomerList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.GetCustomer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.CreateCustomer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.CreateCustomerList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.UpdateCustomer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.UpdateCustomerList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.DeleteCustomer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5CD3D520-E794-4554-B3C3-5C2E18A3F80C::net5.0::Customer.Test.CustomerTest.DeleteCustomerList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.GetOrderList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.GetOrder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.CreateOrder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.CreateOrderList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.UpdateOrder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.UpdateOrderList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.DeleteOrder&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.DeleteOrderList&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::190A5573-3469-47DB-BFAE-04054A3C8A85::net5.0::Order.Test.OrderTest.ChangeStatus&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	
 	
 	</wpf:ResourceDictionary>

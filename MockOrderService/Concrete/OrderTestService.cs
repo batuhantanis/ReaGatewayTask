@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Data.Entities.Concrete;
-using MockOrderService.Abstract;
+using Order.Domain.Services.Abstract;
 
 namespace MockOrderService.Concrete
 {
-    public class OrderTestService : IOrderTestService
+    public class OrderTestService : IOrderService
     {
         private List<OrderEntity> _entities;
         public OrderTestService()
@@ -59,43 +60,44 @@ namespace MockOrderService.Concrete
                 }
             };
         }
-        
-        public List<OrderEntity> GetOrdersList()
+        public async Task<List<OrderEntity>> GetOrdersList()
         {
             return _entities;
         }
 
-        public OrderEntity GetOrder(int id)
+        public async Task<OrderEntity> GetOrder(int id)
         {
-            return _entities.FirstOrDefault(x => x.Id == id);
+            var order = _entities.FirstOrDefault(x => x.Id == id);
+            return order;
         }
 
-        public bool CreateOrder()
+        public async Task<bool> CreateOrder(OrderEntity entity)
         {
             try
             {
-                var order = new OrderEntity()
-                {
-                    Id = 1,
-                    Quantity = 1,
-                    Price = 180,
-                    Status = "Transferred",
-                    CustomerId = 1,
-                    AddressId = 1,
-                    CreatedAt = DateTime.Now,
-                    UpdatedAt = DateTime.Now
-                };
-                _entities.Add(order);
+                _entities.Add(entity);
                 return true;
             }
             catch (Exception e)
             {
                 return false;
             }
-               
         }
 
-        public bool UpdateOrder(OrderEntity entity)
+        public async Task<bool> CreateOrderList(List<OrderEntity> entities)
+        {
+            try
+            {
+                _entities.AddRange(entities);
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
+        public async Task<bool> UpdateOrder(OrderEntity entity)
         {
             if (entity != null)
             {
@@ -104,25 +106,72 @@ namespace MockOrderService.Concrete
                 _entities.Add(entity);
                 return true;
             }
-
+            
             return false;
         }
-        public bool DeleteOrder(int id)
+
+        public async Task<bool> UpdateOrderList(List<OrderEntity> entities)
+        {
+            if (entities != null)
+            {
+                foreach (var entity in entities)
+                {
+                    var _entity = _entities.Find(x => x.Id == entity.Id);
+                    _entities.Remove(_entity);
+                    _entities.Add(entity);
+                    
+                }
+                return true;
+            }
+            
+            return false;
+        }
+
+        public async Task<bool> DeleteOrder(int id)
         {
             try
             {
-                var entity = _entities.FirstOrDefault(x => x.Id == id);
-                _entities.Remove(entity);
+                var order = _entities.FirstOrDefault(x => x.Id == id);
+                _entities.Remove(order);
                 return true;
             }
             catch (Exception e)
             {
                 return false;
             }
-                
-            
-
         }
-      
+
+        public async Task<bool> DeleteOrderList(List<OrderEntity> entities)
+        {
+            try
+            {
+                foreach (var entity in entities)
+                {
+                    var order = _entities.FirstOrDefault(x => x.Id == entity.Id);
+                    _entities.Remove(order);
+                }
+               
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
+        public async Task<bool> ChangeStatus(int id, string status)
+        {
+            try
+            {
+                var order = _entities.FirstOrDefault(x => x.Id == id);
+                order.Status = status;
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+           
+        }
     }
 }

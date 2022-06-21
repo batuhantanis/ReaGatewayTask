@@ -2150,6 +2150,19 @@
         "runtime": {
           "bin/placeholder/Data.dll": {}
         }
+      },
+      "Order.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Order.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Order.Domain.dll": {}
+        }
       }
     }
   },
@@ -7360,11 +7373,17 @@
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
+    },
+    "Order.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Order.Domain/Order.Domain.csproj",
+      "msbuildProject": "../Order.Domain/Order.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Data >= 1.0.0"
+      "Data >= 1.0.0",
+      "Order.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7401,6 +7420,9 @@
           "projectReferences": {
             "C:\\Users\\batut\\RiderProjects\\ReaTask\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\batut\\RiderProjects\\ReaTask\\Data\\Data.csproj"
+            },
+            "C:\\Users\\batut\\RiderProjects\\ReaTask\\Order.Domain\\Order.Domain.csproj": {
+              "projectPath": "C:\\Users\\batut\\RiderProjects\\ReaTask\\Order.Domain\\Order.Domain.csproj"
             }
           }
         }

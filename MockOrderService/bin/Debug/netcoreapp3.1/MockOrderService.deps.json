@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "MockOrderService/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0"
+          "Data": "1.0.0",
+          "Order.Domain": "1.0.0"
         },
         "runtime": {
           "MockOrderService.dll": {}
@@ -1424,6 +1425,14 @@
         "runtime": {
           "Data.dll": {}
         }
+      },
+      "Order.Domain/1.0.0": {
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "runtime": {
+          "Order.Domain.dll": {}
+        }
       }
     }
   },
@@ -2337,6 +2346,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using Customer.Domain.Services.Abstract;
 using Data.Entities.Concrete;
-using MockCustomerService.Abstract;
 
 namespace MockCustomerService.Concrete
 {
-    public class CustomerTestService : ICustomerTestService
+    public class CustomerTestService : ICustomerService
     {
         private List<CustomerEntity> _entities;
         public CustomerTestService()
@@ -51,44 +52,44 @@ namespace MockCustomerService.Concrete
                 }
             };
         }
-        
-        
-        public List<CustomerEntity> GetCustomersList()
+        public async Task<List<CustomerEntity>> GetCustomersList()
         {
-            return _entities;
+            return  _entities;
         }
 
-        public CustomerEntity GetCustomer(int id)
+        public async Task<CustomerEntity> GetCustomer(int id)
         {
             var customer = _entities.FirstOrDefault(x => x.Id == id);
             return customer;
         }
 
-        public bool CreateCustomer()
+        public async Task<bool> CreateCustomer(CustomerEntity entity)
         {
             try
             {
-                var customer = new CustomerEntity()
-                {
-                    Id = 1,
-                    Name = "Batuhan",
-                    Email = "test@hotmail.com",
-                    AddressId = 1,
-                    CreatedAt = DateTime.Now,
-                    UpdatedAt = DateTime.Now
-                };
-            
-                _entities.Add(customer);
+                _entities.Add(entity);
                 return true;
             }
             catch (Exception e)
             {
                 return false;
             }
-           
         }
 
-        public bool UpdateCustomer(CustomerEntity entity)
+        public async Task<bool> CreateCustomerList(List<CustomerEntity> entities)
+        {
+            try
+            {
+                _entities.AddRange(entities);
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
+        public async Task<bool> UpdateCustomer(CustomerEntity entity)
         {
             if (entity != null)
             {
@@ -97,11 +98,28 @@ namespace MockCustomerService.Concrete
                 _entities.Add(entity);
                 return true;
             }
-
+            
             return false;
         }
 
-        public bool DeleteCustomer(int id)
+        public async Task<bool> UpdateCustomerList(List<CustomerEntity> entities)
+        {
+            if (entities != null)
+            {
+                foreach (var entity in entities)
+                {
+                    var _entity = _entities.Find(x => x.Id == entity.Id);
+                    _entities.Remove(_entity);
+                    _entities.Add(entity);
+                    
+                }
+                return true;
+            }
+            
+            return false;
+        }
+
+        public async Task<bool> DeleteCustomer(int id)
         {
             try
             {
@@ -113,7 +131,24 @@ namespace MockCustomerService.Concrete
             {
                 return false;
             }
-            
+        }
+
+        public async Task<bool> DeleteCustomerList(List<CustomerEntity> entities)
+        {
+            try
+            {
+                foreach (var entity in entities)
+                {
+                    var customer = _entities.FirstOrDefault(x => x.Id == entity.Id);
+                    _entities.Remove(customer);
+                }
+               
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
         }
     }
 }

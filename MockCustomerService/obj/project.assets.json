@@ -2135,6 +2135,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Customer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Customer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customer.Domain.dll": {}
+        }
+      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7356,6 +7369,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Customer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Customer.Domain/Customer.Domain.csproj",
+      "msbuildProject": "../Customer.Domain/Customer.Domain.csproj"
+    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../Data/Data.csproj",
@@ -7364,6 +7382,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Customer.Domain >= 1.0.0",
       "Data >= 1.0.0"
     ]
   },
@@ -7399,6 +7418,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\batut\\RiderProjects\\ReaTask\\Customer.Domain\\Customer.Domain.csproj": {
+              "projectPath": "C:\\Users\\batut\\RiderProjects\\ReaTask\\Customer.Domain\\Customer.Domain.csproj"
+            },
             "C:\\Users\\batut\\RiderProjects\\ReaTask\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\batut\\RiderProjects\\ReaTask\\Data\\Data.csproj"
             }

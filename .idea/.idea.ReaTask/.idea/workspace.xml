@@ -26,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7d34fa2a0b944eacab726a097f57cd0391e590/87/dfe4da9b/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/125bbb087574a5428a447c497e7ce95b052104233387e3d856d631aeb266636/RuntimeType.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18ec36399672e5088afc5eca0ad16d0d9619fe766128a7d658975cabd4aef47/IEntityTypeConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b6d9aef891d740fada4474a66a67cc9d76348d742c9818aa2f7592a2e55aa7/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4035669f1d6dc51eae2799b349921a7ad1ea07d5e1a7fd22d72af584f9f19e/StartupLoader.cs" root0="SKIP_HIGHLIGHTING" />
@@ -203,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655728426278</updated>
       <workItem from="1655728428473" duration="61000" />
-      <workItem from="1655728506927" duration="42207000" />
+      <workItem from="1655728506927" duration="47018000" />
     </task>
     <servers />
   </component>
@@ -516,6 +517,240 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Deneme/UnitTest1.cs</url>
+          <line>22</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Deneme\UnitTest1.cs" initialLine="22" containingFunctionPresentation="method 'Test1'">
+            <startOffsets>
+              <option value="623" />
+            </startOffsets>
+            <endOffsets>
+              <option value="674" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>56</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="56" containingFunctionPresentation="method 'GetCustomersList'">
+            <startOffsets>
+              <option value="1800" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1818" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>61</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="61" containingFunctionPresentation="method 'GetCustomer'">
+            <startOffsets>
+              <option value="1914" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1971" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>67</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="67" containingFunctionPresentation="method 'CreateCustomer'">
+            <startOffsets>
+              <option value="2104" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2293" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>80</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="80" containingFunctionPresentation="method 'CreateCustomerList'">
+            <startOffsets>
+              <option value="2409" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2605" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>94</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="94" containingFunctionPresentation="method 'UpdateCustomer'">
+            <startOffsets>
+              <option value="2741" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2742" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>105</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="105" containingFunctionPresentation="method 'UpdateCustomerList'">
+            <startOffsets>
+              <option value="3078" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3079" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>123</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="123" containingFunctionPresentation="method 'DeleteCustomer'">
+            <startOffsets>
+              <option value="3568" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3836" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockCustomerService/Concrete/CustomerTestService.cs</url>
+          <line>136</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockCustomerService\Concrete\CustomerTestService.cs" initialLine="136" containingFunctionPresentation="method 'DeleteCustomerList'">
+            <startOffsets>
+              <option value="3938" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3939" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>63</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="63" containingFunctionPresentation="method 'GetOrdersList'">
+            <startOffsets>
+              <option value="1992" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1993" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>68</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="68" containingFunctionPresentation="method 'GetOrder'">
+            <startOffsets>
+              <option value="2099" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2100" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>74</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="74" containingFunctionPresentation="method 'CreateOrder'">
+            <startOffsets>
+              <option value="2277" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2278" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>100</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="100" containingFunctionPresentation="method 'UpdateOrder'">
+            <startOffsets>
+              <option value="2870" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2871" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>113</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="113" containingFunctionPresentation="method 'UpdateOrderList'">
+            <startOffsets>
+              <option value="3247" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3248" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>144</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="144" containingFunctionPresentation="method 'DeleteOrderList'">
+            <startOffsets>
+              <option value="4092" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4093" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>162</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="162" containingFunctionPresentation="method 'ChangeStatus'">
+            <startOffsets>
+              <option value="4572" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4573" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>130</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="130" containingFunctionPresentation="method 'DeleteOrder'">
+            <startOffsets>
+              <option value="3720" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3721" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MockOrderService/Concrete/OrderTestService.cs</url>
+          <line>87</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\MockOrderService\Concrete\OrderTestService.cs" initialLine="87" containingFunctionPresentation="method 'CreateOrderList'">
+            <startOffsets>
+              <option value="2576" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2577" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
