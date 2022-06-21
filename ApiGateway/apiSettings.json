@@ -81,6 +81,96 @@
         "Host": "localhost",
         "Port": 5002
       }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/getorderlist",
+      "UpstreamHttpMethod": ["Get"],
+      "DownstreamPathTemplate": "/api/order/getorderlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/getorder/{id}",
+      "UpstreamHttpMethod": ["Get"],
+      "DownstreamPathTemplate": "/api/order/getorder/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/createorder",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/order/createorder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/createorderlist",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/order/createorderlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/updateorder",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/order/updateorder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/updateorderlist",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/order/updateorderlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/deleteorder/{id}",
+      "UpstreamHttpMethod": ["Delete"],
+      "DownstreamPathTemplate": "/api/order/deleteorder/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/deleteorderlist",
+      "UpstreamHttpMethod": ["Delete"],
+      "DownstreamPathTemplate": "/api/order/deleteorderlist",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
+    },
+    {
+      "UpstreamPathTemplate": "/order/changestatus/{id}/{status}",
+      "UpstreamHttpMethod": ["Post"],
+      "DownstreamPathTemplate": "/api/order/changestatus/{id}/{status}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5001
+      }]
     }
   ]
 }

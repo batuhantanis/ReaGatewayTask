@@ -64,3 +64,6 @@ C:\Users\batut\RiderProjects\ReaTask\Customer.API\bin\Debug\net5.0\Swashbuckle.A
 C:\Users\batut\RiderProjects\ReaTask\Customer.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\batut\RiderProjects\ReaTask\Customer.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\batut\RiderProjects\ReaTask\Customer.API\obj\Debug\net5.0\Customer.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\batut\RiderProjects\ReaTask\Customer.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\batut\RiderProjects\ReaTask\Customer.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\batut\RiderProjects\ReaTask\Customer.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

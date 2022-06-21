@@ -33,7 +33,7 @@ namespace Data.Repository
             
             // Gibi yapabilirdik.
             
-            _entities = from t in (Assembly.GetAssembly(typeof(BaseEntity))?.GetTypes())
+            _entities = from t in (Assembly.GetAssembly(typeof(IEntity))?.GetTypes())
                 where t.IsClass && t.Namespace == EntitiesNameSpace
                                 && t.GetAllInterfaces().Select(x => x.ToString()).Contains(typeof(IEntity).ToString())
                 select t;

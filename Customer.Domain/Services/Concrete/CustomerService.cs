@@ -20,14 +20,14 @@ namespace Customer.Domain.Services.Concrete
 
         public async Task<List<CustomerEntity>> GetCustomersList()
         {
-            var customers = await _unitOfWork.Customer.GetAll();
+            var customers = await _unitOfWork.Customer.GetAll(null,null,new List<string>(){"Address","OrderEntities.Products"});
             return customers.ToList();
         }
 
         public async Task<CustomerEntity> GetCustomer(int id)
         {
            
-            var customer = await _unitOfWork.Customer.Get(x => x.Id == id);
+            var customer = await _unitOfWork.Customer.Get(x => x.Id == id,new List<string>(){"Address","OrderEntities.Products"});
             return customer;
         }
 

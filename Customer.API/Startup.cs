@@ -17,6 +17,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Newtonsoft.Json;
 
 namespace Customer.API
 {
@@ -32,7 +33,7 @@ namespace Customer.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Customer.API", Version = "v1" });
@@ -43,8 +44,8 @@ namespace Customer.API
                 x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
                     m => m.MigrationsAssembly("Data")));
 
-            services.AddScoped<ICustomerService, CustomerService>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
             
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

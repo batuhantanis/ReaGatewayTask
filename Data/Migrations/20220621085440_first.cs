@@ -17,8 +17,8 @@ namespace Data.Migrations
                     City = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Country = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CityCode = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 216, DateTimeKind.Local).AddTicks(8566)),
-                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 222, DateTimeKind.Local).AddTicks(2019))
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 913, DateTimeKind.Local).AddTicks(1451)),
+                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 917, DateTimeKind.Local).AddTicks(4239))
                 },
                 constraints: table =>
                 {
@@ -33,8 +33,8 @@ namespace Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 238, DateTimeKind.Local).AddTicks(1364)),
-                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 238, DateTimeKind.Local).AddTicks(1736))
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(8602)),
+                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(8972))
                 },
                 constraints: table =>
                 {
@@ -50,8 +50,8 @@ namespace Data.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     AddressId = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 231, DateTimeKind.Local).AddTicks(1153)),
-                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 231, DateTimeKind.Local).AddTicks(1742))
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 925, DateTimeKind.Local).AddTicks(9153)),
+                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 925, DateTimeKind.Local).AddTicks(9594))
                 },
                 constraints: table =>
                 {
@@ -74,8 +74,8 @@ namespace Data.Migrations
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CustomerId = table.Column<int>(type: "int", nullable: false),
                     AddressId = table.Column<int>(type: "int", nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 235, DateTimeKind.Local).AddTicks(901)),
-                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 20, 19, 8, 5, 235, DateTimeKind.Local).AddTicks(1367))
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 929, DateTimeKind.Local).AddTicks(2316)),
+                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false, defaultValue: new DateTime(2022, 6, 21, 11, 54, 39, 929, DateTimeKind.Local).AddTicks(2748))
                 },
                 constraints: table =>
                 {
@@ -114,6 +114,51 @@ namespace Data.Migrations
                         principalTable: "ProductEntity",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AddressEntity",
+                columns: new[] { "Id", "AddressLine", "City", "CityCode", "Country", "CreatedAt", "UpdatedAt" },
+                values: new object[,]
+                {
+                    { 1, "1", "Ankara", 6, "Turkey", new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(5974), new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6358) },
+                    { 2, "2", "İzmir", 35, "Turkey", new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6728), new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6732) },
+                    { 3, "3", "NewYork", 355, "America", new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6735), new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6736) },
+                    { 4, "4", "Los Angeles", 365, "America", new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6738), new DateTime(2022, 6, 21, 11, 54, 39, 924, DateTimeKind.Local).AddTicks(6739) }
+                });
+
+            migrationBuilder.InsertData(
+                table: "ProductEntity",
+                columns: new[] { "Id", "CreatedAt", "ImageUrl", "Name", "UpdatedAt" },
+                values: new object[,]
+                {
+                    { 1, new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5791), "https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png", "1. Product", new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5799) },
+                    { 2, new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5817), "https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png", "2. Product", new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5818) },
+                    { 3, new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5820), "https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png", "3. Product", new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5822) },
+                    { 4, new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5823), "https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png", "4. Product", new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5824) },
+                    { 5, new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5826), "https://w.wallhaven.cc/full/k7/wallhaven-k7q9m7.png", "5. Product", new DateTime(2022, 6, 21, 11, 54, 39, 933, DateTimeKind.Local).AddTicks(5827) }
+                });
+
+            migrationBuilder.InsertData(
+                table: "CustomerEntity",
+                columns: new[] { "Id", "AddressId", "CreatedAt", "Email", "Name", "UpdatedAt" },
+                values: new object[,]
+                {
+                    { 1, 1, new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9063), "test@hotmail.com", "Batuhan", new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9079) },
+                    { 3, 2, new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9101), "jason@hotmail.com", "Jason", new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9102) },
+                    { 2, 3, new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9097), "mehmet@hotmail.com", "Mehmet", new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9099) },
+                    { 4, 4, new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9104), "haluk@hotmail.com", "Haluk", new DateTime(2022, 6, 21, 11, 54, 39, 928, DateTimeKind.Local).AddTicks(9105) }
+                });
+
+            migrationBuilder.InsertData(
+                table: "OrderEntity",
+                columns: new[] { "Id", "AddressId", "CreatedAt", "CustomerId", "Price", "Quantity", "Status", "UpdatedAt" },
+                values: new object[,]
+                {
+                    { 1, 1, new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5020), 1, 180.0, 1, "Transferred", new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5036) },
+                    { 3, 4, new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5062), 3, 800.0, 3, "Success", new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5063) },
+                    { 2, 2, new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5058), 2, 5500.0, 2, "NotPaid", new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5060) },
+                    { 4, 3, new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5065), 4, 225.0, 4, "WaitingOrder", new DateTime(2022, 6, 21, 11, 54, 39, 932, DateTimeKind.Local).AddTicks(5067) }
                 });
 
             migrationBuilder.CreateIndex(

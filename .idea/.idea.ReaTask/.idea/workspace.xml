@@ -23,7 +23,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7d34fa2a0b944eacab726a097f57cd0391e590/87/dfe4da9b/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/18ec36399672e5088afc5eca0ad16d0d9619fe766128a7d658975cabd4aef47/IEntityTypeConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1b6d9aef891d740fada4474a66a67cc9d76348d742c9818aa2f7592a2e55aa7/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4035669f1d6dc51eae2799b349921a7ad1ea07d5e1a7fd22d72af584f9f19e/StartupLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/ccc/productAPI/Controllers/ProductController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -31,6 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AqDsDKd7g75XXzjXSdyoNGxRxQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,7 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Compound.Customer">
+  <component name="RunManager" selected="Compound.Together">
     <configuration name="Customer" type="CompoundRunConfigurationType">
       <toRun name="ApiGateway" type="LaunchSettings" />
       <toRun name="Customer.API" type="LaunchSettings" />
@@ -166,13 +169,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655728426278</updated>
       <workItem from="1655728428473" duration="61000" />
-      <workItem from="1655728506927" duration="18981000" />
+      <workItem from="1655728506927" duration="28327000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -289,10 +293,10 @@
           <line>27</line>
           <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\Services\Concrete\CustomerService.cs" initialLine="27" containingFunctionPresentation="method 'GetCustomer'">
             <startOffsets>
-              <option value="733" />
+              <option value="797" />
             </startOffsets>
             <endOffsets>
-              <option value="734" />
+              <option value="798" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
@@ -302,10 +306,10 @@
           <line>98</line>
           <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Customer.Domain\Services\Concrete\CustomerService.cs" initialLine="98" containingFunctionPresentation="method 'DeleteCustomerList'">
             <startOffsets>
-              <option value="2601" />
+              <option value="2720" />
             </startOffsets>
             <endOffsets>
-              <option value="2622" />
+              <option value="2741" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
@@ -322,6 +326,123 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>21</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="21" containingFunctionPresentation="method 'GetCustomerList'">
+            <startOffsets>
+              <option value="590" />
+            </startOffsets>
+            <endOffsets>
+              <option value="591" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>30</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="30" containingFunctionPresentation="method 'GetCustomer'">
+            <startOffsets>
+              <option value="822" />
+            </startOffsets>
+            <endOffsets>
+              <option value="867" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>37</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="37" containingFunctionPresentation="method 'CreateCustomer'">
+            <startOffsets>
+              <option value="1044" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1094" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>44</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="44" containingFunctionPresentation="method 'CreateCustomerList'">
+            <startOffsets>
+              <option value="1285" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1341" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>50</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="50" containingFunctionPresentation="method 'UpdateCustomer'">
+            <startOffsets>
+              <option value="1502" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1503" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>57</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="57" containingFunctionPresentation="method 'UpdateCustomerList'">
+            <startOffsets>
+              <option value="1743" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1744" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>64</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="64" containingFunctionPresentation="method 'DeleteCustomer'">
+            <startOffsets>
+              <option value="1958" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1959" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>71</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="71" containingFunctionPresentation="method 'DeleteCustomerList'">
+            <startOffsets>
+              <option value="2197" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2198" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Order.API/Controllers/OrderController.cs</url>
+          <line>78</line>
+          <properties documentPath="C:\Users\batut\RiderProjects\ReaTask\Order.API\Controllers\OrderController.cs" initialLine="78" containingFunctionPresentation="method 'ChangeStatus'">
+            <startOffsets>
+              <option value="2428" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2429" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
